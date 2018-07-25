@@ -1,6 +1,7 @@
 body{
   background: #5CDB95;
   height: 100%;
+  font-size: inherit !important;
 }
 #container{
   min.height: 100%
@@ -78,7 +79,7 @@ hr {
 
 @media(min-width:960px){
   body{
-	font-size:20px;
+	font-size:20px !important;
   }
   #searchResult .col-md-3 .well{
 	width:auto;
