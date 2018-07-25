@@ -77,10 +77,15 @@ hr {
 }
 
 @media(min-width:960px){
+  body{
+	font-size:20px;
+  }
   #searchResult .col-md-3 .well{
+	width:auto;
     height: 390px;
   }
   #searchResult .col-md-3 img{
+	width:auto;
     height: 240px;
   }
 }
