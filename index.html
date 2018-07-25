@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Movie Information</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    <div id="container">
+
+      <!-- Header -->
+      <header>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-film"></span> Movie Information</a>
+            </div><!-- navbar header-->
+          </div><!-- container-fluid -->
+        </nav>
+      </header>
+
+      <!-- Main Info Page -->
+      <section>
+        <!-- Search Input -->
+        <div class="container">
+          <form id="searchForm">
+            <h3 class="text-center main-color-bg">Search Movies</h3>
+              <input type="text" id="searchText" class="form-control" placeholder="Search Movie......">
+          </form>
+        </div>
+
+        <!-- Result Section-->
+        <div class="container">
+          <div id="searchResult" class="row">
+
+          </div><!--Search Result-->
+        </div><!-- Container -->
+      </section>
+
+      <!--
+      <footer id="footer">
+        <div class="container main-color-bg">
+          <h5>Copyright Movie Information &copy; 2018</h5>
+        </div>
+      </footer>
+    -->
+    </div><!-- #container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
